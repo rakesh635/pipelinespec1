@@ -21,7 +21,7 @@ height: 100px;
 
 <body>
 <div class="container">
-<img src="LTI_header.png" >
+<img src="EmailHeader.png" >
 
 </div>
 <br>
@@ -59,7 +59,7 @@ height: 100px;
 </table>
 <br>
 <div class="container">
-<img src="LTI_footer.png" >
+<img src="EmailFooter.png" >
 
 </div><br>
 </body>
