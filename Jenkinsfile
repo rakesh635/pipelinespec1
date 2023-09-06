@@ -1,4 +1,4 @@
-@Library('SharedLibrary1@main') _
+@Library('SharedLibrary1@main')_
 node('general'){
     ansiColor('xterm'){
         env.LOG_LEVEL = "INFO"
