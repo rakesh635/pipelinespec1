@@ -1,0 +1,20 @@
+scm:
+  repo: "https://github.com/rakesh635org/simple-java-maven-app.git"
+  branch: "master"
+build:
+  type: java
+  tool: maven
+unitTest:
+  isUnittestRequired: true
+  tool: junit
+codeCoverage:
+  isCodecoverageRequired: true
+  tool: jacoco
+codeQuality:
+  isCodeQualityRequired: true
+  tool: sonarqube
+  projectKey: iiii
+  projectName: iiii
+  url: "https://sonarcloud.io"
+  login: "0c8d743e0116e17a888cae0d4f12e0ec19d78a9e"
+  organization: "rakesh635-github"
