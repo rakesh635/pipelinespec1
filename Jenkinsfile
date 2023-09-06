@@ -8,7 +8,7 @@ node('general'){
         println "Application log level is set to: " + env.AppLogLevel
         
         withEnv(['APP_LOG_LEVEL=' + env.AppLogLevel ]) {
-            jenkinsfile()
+            jenkinsfile
         }
     }
 }
