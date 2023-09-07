@@ -1,5 +1,8 @@
 @Library('SharedLibrary1@main')_
 node('general'){
+    tools {
+        maven 'maven3.6.3'
+    }
     ansiColor('xterm'){
         env.LOG_LEVEL = "INFO"
         println "System log level is set  to: " + env.LOG_LEVEL
